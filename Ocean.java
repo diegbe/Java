@@ -10,8 +10,6 @@ public class Ocean {
     public void printMap() {
         System.out.println("\n  0 1 2 3 4 5 6 7 8 9 ");
         char[] charArray = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
-        //String[] columnIndex = new String[10];
-        //char[] charArray = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'};
         for (int row = 0; row < charArray.length; row++) { //Create the numbers
             System.out.print(charArray[row] + "|");
             for (int col = 0; col < ocean[row].length; col++) {
